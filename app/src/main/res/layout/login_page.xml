@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIFE SAVER"
+        android:textSize="37dp"
+        android:textColor="#3aa8c1"
+        android:textStyle="bold"
+       android:textAlignment="center"
+       android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/mobnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topic"
+        android:padding="23dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:inputType="phone"
+        android:hint="@string/mobile_number"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="textPassword"
+            android:padding="23dp"
+            android:layout_below="@+id/mobnum"
+            android:maxLines="1"
+            android:hint="@string/password"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/pass"
+            android:layout_marginTop="40dp"
+            android:padding="2dp"
+            android:background="#3aa8c1"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgot password?"
+            android:textSize="15dp"
+            android:layout_below="@+id/login"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+   />
+     <TextView
+         android:id="@+id/reg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Register yourself"
+         android:textSize="20dp"
+        android:padding="30dp"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="40dp"
+         />
+
+
+</RelativeLayout>

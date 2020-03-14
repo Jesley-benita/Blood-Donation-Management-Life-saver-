@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/life_saver"
+        android:textColor="#a4c639"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="100dp"
+
+
+
+         />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_below="@+id/title"
+        android:textSize="25dp"
+        android:padding="2dp"
+        android:layout_marginTop="23dp"
+
+        />
+    <EditText
+        android:id="@+id/namebox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:padding="10dp"
+        android:layout_below="@+id/name"
+        android:layout_margin="1dp"
+
+
+        />
+    <TextView
+        android:id="@+id/bloodgp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blood_group"
+        android:layout_below="@+id/namebox"
+        android:textSize="25dp"
+        android:padding="2dp"
+        android:layout_marginTop="23dp"
+        />
+    <EditText
+        android:id="@+id/bloodgpbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="1dp"
+        android:layout_below="@+id/bloodgp"
+        android:hint="enter your blood group"
+
+        />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_below="@+id/bloodgpbox"
+        android:textSize="25dp"
+        android:padding="2dp"
+        android:layout_marginTop="23dp"
+
+        />
+    <EditText
+        android:id="@+id/addressbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="1dp"
+        android:hint="enter your  address"
+        android:layout_below="@+id/address"
+        />
+    <TextView
+    android:id="@+id/phone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Phone number"
+    android:layout_below="@+id/addressbox"
+    android:textSize="25dp"
+    android:padding="2dp"
+    android:layout_marginTop="23dp"
+    />
+
+    <EditText
+        android:id="@+id/phonebox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_margin="1dp"
+        android:hint="enter your phone number"
+        android:padding="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="163dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/phonebox"
+        android:layout_marginLeft="220dp"
+        android:layout_marginRight="220dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="22dp"
+        android:text="update"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        />
+
+
+</RelativeLayout>
